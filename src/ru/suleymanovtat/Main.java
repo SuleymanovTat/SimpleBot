@@ -11,5 +11,8 @@ public class Main {
 
         System.out.println(line2);
         System.out.println(line1);
+        Complex q = new Complex();
+        q.image = 5.4;
+        q.real = 5.4;
     }
 }
