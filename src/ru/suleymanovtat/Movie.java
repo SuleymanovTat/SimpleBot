@@ -7,6 +7,7 @@ public class Movie {
 
     // write two constructors here
     public Movie(String title, String desc, int year) {
+        this("",1);
         this.title = title;
         this.desc = desc;
         this.year = year;

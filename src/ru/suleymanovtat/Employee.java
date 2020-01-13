@@ -5,6 +5,7 @@ class Employee {
     String name;
     int salary;
     String address;
+    String birthDate;
 
     public Employee() {
         name = "unknown";
@@ -22,5 +23,10 @@ class Employee {
         this.name = name;
         this.salary = salary;
         this.address = address;
+    }
+
+    public Employee(String name, String birthDate) {
+        this.name = name;
+        this.birthDate = birthDate;
     }
 }
