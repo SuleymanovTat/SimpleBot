@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Object obj = new Object();
+
         Thread thread = new Thread(new Runnable() {
             int count = 0;
 
